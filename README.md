@@ -8,7 +8,7 @@ A single-page application built with React + Vite displaying classified SCP Foun
 - JSON-driven SCP content (SCP-002 through SCP-006)
 - Active nav highlighting
 - Responsive — works on desktop and mobile
-- Vitest + Testing Library test suite (30+ tests)
+- Vitest + Testing Library test suite (15 tests)
 
 ## Getting Started
 
@@ -38,10 +38,10 @@ Deploy the `/dist` folder to **GitHub Pages**, **Netlify**, or **Vercel**.
 2. Push to GitHub
 3. In repo Settings → Pages → Deploy from `gh-pages` branch, or use the [vite-plugin-gh-pages](https://www.npmjs.com/package/vite-plugin-gh-pages) workflow
 
-### Netlify
+### Vercel
 1. Connect your GitHub repo
 2. Build command: `npm run build`
-3. Publish directory: `dist`
+3. Output directory: `dist`
 
 ## Project Structure
 
