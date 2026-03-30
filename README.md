@@ -39,9 +39,12 @@ Deploy the `/dist` folder to **GitHub Pages**, **Netlify**, or **Vercel**.
 3. In repo Settings → Pages → Deploy from `gh-pages` branch, or use the [vite-plugin-gh-pages](https://www.npmjs.com/package/vite-plugin-gh-pages) workflow
 
 ### Vercel
-1. Connect your GitHub repo
-2. Build command: `npm run build`
-3. Output directory: `dist`
+1. Go to [vercel.com](https://vercel.com) and sign in
+2. Click Add New Project and import your GitHub repo
+3. Set Framework Preset to `Vite`
+4. Build command: `npm run build`
+5. Output directory: `dist`
+6. Click Deploy
 
 ## Project Structure
 
